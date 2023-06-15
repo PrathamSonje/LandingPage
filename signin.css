@@ -1,0 +1,55 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url('badrinath.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+form h1
+{
+    margin-bottom: 45px;
+    font-size: 52px;   
+    font-weight: bold; 
+    color: red;
+    text-shadow: 2px 2px 2px lightskyblue;
+}
+input
+{
+    display:block;
+    width: 350px;
+    height: 50px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-bottom: 4px solid aquamarine;
+    background: transparent;
+    color: aliceblue;
+    font-size: 22px;
+}
+button
+{
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    background-color: aqua;
+    border: none;
+    color:green;
+    border-radius: 55px;
+}
+::placeholder
+{
+    color: silver;
+    text-align: center;
+}
